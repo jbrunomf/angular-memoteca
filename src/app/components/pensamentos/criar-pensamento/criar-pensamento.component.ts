@@ -18,4 +18,12 @@ export class CriarPensamentoComponent {
     alert("Pensamento Adicionado com Sucesso!")
   }
 
+  limparForm(){
+    alert('Ação Cancelada!')
+    this.pensamento.autoria = '',
+    this.pensamento.conteudo = '',
+    this.pensamento.id = '',
+    this.pensamento.modelo = ''
+  }
+
 }
