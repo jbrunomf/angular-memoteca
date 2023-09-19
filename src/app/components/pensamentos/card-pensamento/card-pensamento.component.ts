@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-pensamento',
@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-pensamento.component.css']
 })
 export class CardPensamentoComponent {
-  pensamento = {
+
+  @Input() pensamento = {
     conteudo: "Eu gosto de Angular",
     autoria: "João Bruno",
     modelo: 'modelo1'
