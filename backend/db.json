@@ -1,0 +1,46 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Como é bom ter você comigo.",
+      "autoria": "João Bruno",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 2,
+      "conteudo": "O bom da vida é ser feliz.",
+      "autoria": "João Bruno",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "Esse é o planeta dos macacos..",
+      "autoria": "João Bruno",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 4,
+      "conteudo": "Sim ou não? Talvez.",
+      "autoria": "João Bruno",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 5,
+      "conteudo": "Paciência, é o que me falta.",
+      "autoria": "João Bruno",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 6,
+      "conteudo": "O bom da vida é a vida que se leva.",
+      "autoria": "João Bruno",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 7,
+      "conteudo": "Testando o Json-Server... não o conhecia.",
+      "autoria": "João Bruno",
+      "modelo": "modelo3"
+    }
+  ]
+}
