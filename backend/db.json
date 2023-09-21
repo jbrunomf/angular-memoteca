@@ -41,6 +41,42 @@
       "conteudo": "Testando o Json-Server... não o conhecia.",
       "autoria": "João Bruno",
       "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Aprendendo Angular",
+      "autoria": "João Bruno",
+      "modelo": "modelo1",
+      "id": 8
+    },
+    {
+      "conteudo": "João Bruno teste",
+      "autoria": "João Bruno 123",
+      "modelo": "modelo2",
+      "id": 9
+    },
+    {
+      "conteudo": "Estou Adicionando um pensamento Teste p/ testar o Router",
+      "autoria": "João Bruno 2",
+      "modelo": "modelo2",
+      "id": 10
+    },
+    {
+      "conteudo": "Teste ao modeificar pensamento deixando nullable.",
+      "autoria": "João Bruno",
+      "modelo": "modelo1",
+      "id": 11
+    },
+    {
+      "conteudo": "Pensamento modelo 3",
+      "autoria": "João Bruno",
+      "modelo": "modelo3",
+      "id": 12
+    },
+    {
+      "conteudo": "removendo \"pensamento do component\"",
+      "autoria": "João Bruno",
+      "modelo": "modelo2",
+      "id": 13
     }
   ]
 }
