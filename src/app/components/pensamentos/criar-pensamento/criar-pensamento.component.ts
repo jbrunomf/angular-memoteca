@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Pensamento} from "../pensamento";
 
 @Component({
   selector: 'app-criar-pensamento',
@@ -7,8 +8,8 @@ import { Component } from '@angular/core';
 })
 
 export class CriarPensamentoComponent {
-  pensamento = {
-    id: '1',
+  pensamento: Pensamento = {
+    id: 1,
     conteudo: 'Aprendendo Angular',
     autoria: 'João Bruno',
     modelo: '1'
@@ -22,7 +23,7 @@ export class CriarPensamentoComponent {
     alert('Ação Cancelada!')
     this.pensamento.autoria = '',
     this.pensamento.conteudo = '',
-    this.pensamento.id = '',
+    this.pensamento.id = 0,
     this.pensamento.modelo = ''
   }
 
