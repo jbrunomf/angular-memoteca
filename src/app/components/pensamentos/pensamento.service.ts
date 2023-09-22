@@ -12,10 +12,20 @@ export class PensamentoService {
   constructor(private http: HttpClient) {}
 
   listar(): Observable<Pensamento[]>{
-    return this.http.get<Pensamento[]>(this.API_URL)
+    return this.http.get<Pensamento[]>(this.API_URL);
   }
 
   criar(pensamento: Pensamento): Observable<Pensamento>{
     return this.http.post<Pensamento>(this.API_URL, pensamento);
+  }
+
+  excluir(id: number): Observable<Pensamento>{
+    const url = `${this.API_URL}/${id}`;
+    return this.http.delete<Pensamento>(url);
+  }
+
+  buscarPorId(id: number): Observable<Pensamento>{
+    const url = `${this.API_URL}/${id}`
+    return this.http.get<Pensamento>(url);
   }
 }

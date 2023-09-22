@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { ListarPensamentoComponent } from './components/pensamentos/listar-pensamento/listar-pensamento.component';
 import { CardPensamentoComponent } from './components/pensamentos/card-pensamento/card-pensamento.component';
 import {HttpClientModule} from "@angular/common/http";
+import { ExcluirPensamentoComponent } from './components/pensamentos/excluir-pensamento/excluir-pensamento.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {HttpClientModule} from "@angular/common/http";
     FooterComponent,
     CriarPensamentoComponent,
     ListarPensamentoComponent,
-    CardPensamentoComponent
+    CardPensamentoComponent,
+    ExcluirPensamentoComponent
   ],
   imports: [
     BrowserModule,

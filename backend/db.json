@@ -1,24 +1,6 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "Como é bom ter você comigo.",
-      "autoria": "João Bruno",
-      "modelo": "modelo3"
-    },
-    {
-      "id": 2,
-      "conteudo": "O bom da vida é ser feliz.",
-      "autoria": "João Bruno",
-      "modelo": "modelo2"
-    },
-    {
-      "id": 3,
-      "conteudo": "Esse é o planeta dos macacos..",
-      "autoria": "João Bruno",
-      "modelo": "modelo1"
-    },
-    {
       "id": 4,
       "conteudo": "Sim ou não? Talvez.",
       "autoria": "João Bruno",
@@ -61,22 +43,10 @@
       "id": 10
     },
     {
-      "conteudo": "Teste ao modeificar pensamento deixando nullable.",
-      "autoria": "João Bruno",
-      "modelo": "modelo1",
-      "id": 11
-    },
-    {
-      "conteudo": "Pensamento modelo 3",
+      "conteudo": "Pensamento de teste para testar o método",
       "autoria": "João Bruno",
       "modelo": "modelo3",
-      "id": 12
-    },
-    {
-      "conteudo": "removendo \"pensamento do component\"",
-      "autoria": "João Bruno",
-      "modelo": "modelo2",
-      "id": 13
+      "id": 11
     }
   ]
 }

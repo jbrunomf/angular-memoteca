@@ -8,18 +8,18 @@ import {Observable} from "rxjs";
   templateUrl: './listar-pensamento.component.html',
   styleUrls: ['./listar-pensamento.component.css']
 })
-export class ListarPensamentoComponent implements OnInit{
+export class ListarPensamentoComponent implements OnInit {
 
   listaPensamentos: Pensamento[] = [];
 
-  constructor(private service: PensamentoService){}
+  constructor(private service: PensamentoService) {
+  }
 
   ngOnInit(): void {
     this.service.listar().subscribe((listaPensamentos) => this.listaPensamentos = listaPensamentos)
   }
 
-  criar(pensamento: Pensamento): Observable<Pensamento>{
+  criar(pensamento: Pensamento): Observable<Pensamento> {
     return this.service.criar(pensamento);
   }
-
 }
